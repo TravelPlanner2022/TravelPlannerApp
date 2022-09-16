@@ -1,0 +1,12 @@
+.gm-style .gm-style-iw-c {
+    height: 110px;
+    overflow-y:auto;
+}
+
+.poi-info-window .title {
+    padding-top:27px;
+}
+
+.poi-info-window .address {
+    margin-top:40px;
+}
