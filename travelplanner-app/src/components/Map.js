@@ -145,7 +145,7 @@ function Map() {
   }
 
   if (loadError) {
-      return <div>Map cannot be loaded right now, sorry.</div>
+      return <div>Map cannot be loaded right now, please try again later.</div>
   } else {
       return isLoaded ? renderMap() : null
   }    
