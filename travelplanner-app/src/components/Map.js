@@ -9,7 +9,7 @@ import {
 
 const containerStyle = {
   width: '1570px',
-  height: '750px'
+  height: '840px'
 };
 
 const icon = {
@@ -129,7 +129,7 @@ function Map() {
           )}
 
         </GoogleMap>
-        <h3>
+        {/* <h3>
           Center {center.lat}, {center.lng}
         </h3>
 
@@ -139,7 +139,7 @@ function Map() {
           </h3>
         )}
 
-        {selectedPlace && <h3>Selected Marker: {selectedPlace.id}</h3>}
+        {selectedPlace && <h3>Selected Marker: {selectedPlace.id}</h3>} */}
       </Fragment>
     )
   }
